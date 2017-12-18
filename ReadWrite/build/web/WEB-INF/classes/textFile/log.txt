@@ -1,0 +1,27 @@
+Type in me and I will display in the servlet.
+this is a log. 2017/12/18 12:23:58StringBuilder s = new StringBuilder();
+            String writeLine = b.readLine();
+
+            while (writeLine != null) {
+                s.append(writeLine);
+                s.append("" + System.lineSeparator());
+                writeLine = b.readLine();
+            }
+        String allWrite = s.toString();
+        
+        BufferedWriter writer = new BufferedWriter(new FileWriter("C:\\Users\\xdark\\Documents\\NetBeansProjects\\ReadWrite\\src\\java\\textFile\\log.txt", true));
+        writer.append(' ');
+        writer.append(allWrite);
+ 2017/12/18 12:24:27StringBuilder s = new StringBuilder();
+            String writeLine = b.readLine();
+
+            while (writeLine != null) {
+                s.append(writeLine);
+                s.append("" + System.lineSeparator());
+                writeLine = b.readLine();
+            }
+        String allWrite = s.toString();
+        
+        BufferedWriter writer = new BufferedWriter(new FileWriter("C:\\Users\\xdark\\Documents\\NetBeansProjects\\ReadWrite\\src\\java\\textFile\\log.txt", true));
+        writer.append(' ');
+        writer.append(allWrite);

@@ -1,0 +1,13 @@
+StringBuilder s = new StringBuilder();
+            String writeLine = b.readLine();
+
+            while (writeLine != null) {
+                s.append(writeLine);
+                s.append("" + System.lineSeparator());
+                writeLine = b.readLine();
+            }
+        String allWrite = s.toString();
+        
+        BufferedWriter writer = new BufferedWriter(new FileWriter("C:\\Users\\xdark\\Documents\\NetBeansProjects\\ReadWrite\\src\\java\\textFile\\log.txt", true));
+        writer.append(' ');
+        writer.append(allWrite);
